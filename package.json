@@ -4,7 +4,6 @@
   "description": "Use ws:// or wss:// depending on environment.",
   "main": "./app/dist/esm/normalizeWsUrlProtocol.mjs",
   "types": "./app/dist/esm/normalizeWsUrlProtocol.d.ts",
-  "bin": "./app/dist/esm/cli/normalizeWsUrlProtocol-cli.js",
   "exports": {
     "node": {
       "import": "./app/dist/esm/normalizeWsUrlProtocol.mjs",
