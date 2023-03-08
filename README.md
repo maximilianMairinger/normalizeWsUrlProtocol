@@ -1,8 +1,6 @@
 # Normalize ws url protocol
 
-Use ws:// or wss:// depending on environment.
-
-> Please note that Normalize ws url protocol is currently under development and not yet suited for production
+Use ws:// or wss:// depending on environment (if https or not).
 
 ## Installation
 
@@ -17,7 +15,8 @@ Use ws:// or wss:// depending on environment.
 ```ts
 import normalizeWsUrlProtocol from "normalize-ws-url-protocol"
 
-normalizeWsUrlProtocol()
+normalizeWsUrlProtocol("/ws") // ws://localhost/ws // wss://example.com/ws
+normalizeWsUrlProtocol("https://example.com") // wss://example.com
 ```
 
 ## Contribute
