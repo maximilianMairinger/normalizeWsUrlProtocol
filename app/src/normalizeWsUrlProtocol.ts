@@ -1,4 +1,4 @@
-export function normalizeWsUrlProtocol(url: string) {
+export function normalizeWsUrlProtocol(url: string = "") {
   
   if (url.startsWith("ws://")) return url
   else if (url.startsWith("wss://")) return url
