@@ -1,6 +1,6 @@
 {
   "name": "normalize-ws-url-protocol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use ws:// or wss:// depending on environment.",
   "main": "./app/dist/esm/normalizeWsUrlProtocol.mjs",
   "types": "./app/dist/esm/normalizeWsUrlProtocol.d.ts",
